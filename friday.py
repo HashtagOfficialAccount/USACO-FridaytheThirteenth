@@ -10,7 +10,7 @@ x.close()
 
 year = 1900
 counter = {"mon":0, "tue":0, "wed":0, "thu":0, "fri":0, "sat":0, "sun":0}
-days = ["mon","tue","wed","thu","fri","sat","sun","mon","tue","wed","thu","fri","sat","sun","mon","tue","wed","thu","fri","sat","sun","mon","tue","wed","thu","fri","sat","sun","mon","tue","wed","thu","fri","sat","sun","mon","tue","wed","thu","fri","sat","sun"]
+days = ["mon","tue","wed","thu","fri","sat","sun"]*6
 months = ["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"]
 start = "mon"
 for i in range(num):
